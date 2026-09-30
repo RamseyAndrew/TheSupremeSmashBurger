@@ -57,7 +57,7 @@ export default function FindUs() {
               </p>
               <div className="flex gap-3 flex-wrap">
                 <a
-                  href="https://maps.google.com/?q=KSTVET+Gigiri+Nairobi"
+                  href="https://www.google.com/maps/place/The+Supreme+Smash+Burger/@-1.2611605,36.7638689,14z/data=!4m10!1m2!2m1!1sthe+supreme+smash+burger!3m6!1s0x182f170015ec30b7:0x8fa861c1300ee093!8m2!3d-1.2611605!4d36.8019777!15sChh0aGUgc3VwcmVtZSBzbWFzaCBidXJnZXJaGiIYdGhlIHN1cHJlbWUgc21hc2ggYnVyZ2VykgEKcmVzdGF1cmFudJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyeHNlV0ZXUmpSaldHaEdUa2M1UjA1SVRsZFRSV2h2VmpOS01HRXhSUkFC4AEA-gEECAAQPA!16s%2Fg%2F11z4m0vggj?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noreferrer"
                   className="font-condensed font-700 text-sm tracking-[0.1em] bg-[#D41717] text-white px-6 py-3 hover:bg-[#FF2626] transition-colors duration-200 uppercase"
@@ -82,7 +82,7 @@ export default function FindUs() {
                 <p className="font-condensed font-700 text-white text-2xl">KSTVET, GIGIRI</p>
                 <p className="font-body text-white/50 text-sm">Off UN Avenue Road, Nairobi</p>
                 <a
-                  href="https://maps.google.com/?q=KSTVET+Gigiri+Nairobi"
+                  href="https://www.google.com/maps/place/The+Supreme+Smash+Burger/@-1.2611605,36.7638689,14z/data=!4m10!1m2!2m1!1sthe+supreme+smash+burger!3m6!1s0x182f170015ec30b7:0x8fa861c1300ee093!8m2!3d-1.2611605!4d36.8019777!15sChh0aGUgc3VwcmVtZSBzbWFzaCBidXJnZXJaGiIYdGhlIHN1cHJlbWUgc21hc2ggYnVyZ2VykgEKcmVzdGF1cmFudJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyeHNlV0ZXUmpSaldHaEdUa2M1UjA1SVRsZFRSV2h2VmpOS01HRXhSUkFC4AEA-gEECAAQPA!16s%2Fg%2F11z4m0vggj?entry=ttu&g_ep=EgoyMDI2MDkyNy4xIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noreferrer"
                   className="font-condensed text-xs tracking-widest text-[#D41717] hover:underline"
