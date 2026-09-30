@@ -1,8 +1,8 @@
 import { Link } from "react-router";
 import brand from "../brand";
 import heroVideo from "../imports/hero.mp4";
-import screenshot1 from "../imports/Screenshot_2026-09-30_152459.png";
-import screenshot3 from "../imports/Screenshot_2026-09-30_153704.png";
+import screenshot1 from "../imports/1.png";
+import screenshot3 from "../imports/2.png";
 
 const TornDivider = ({ flip = false }: { flip?: boolean }) => (
   <div
@@ -61,7 +61,7 @@ export default function Home() {
           loop
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-100"
-          src={heroVideo}
+         src="https://res.cloudinary.com/dmd3p6kkt/video/upload/v1790778652/hero_r5mttp.mp4"
         />
       </section>
 
@@ -73,7 +73,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-0">
           <div className="relative overflow-hidden" style={{ minHeight: "500px" }}>
             <img
-              src={screenshot1}
+              src="https://res.cloudinary.com/dmd3p6kkt/image/upload/v1790778744/1_udjqco.png"
               alt="Fashion-campaign poster — model in red puffer holding The Supreme Smash Burger"
               className="w-full h-full object-cover object-top"
               style={{ minHeight: "500px" }}
@@ -122,7 +122,7 @@ export default function Home() {
             <div className="relative">
               <div className="aspect-square bg-[#1A1A1A] overflow-hidden">
                 <img
-                  src={screenshot3}
+                  src="https://res.cloudinary.com/dmd3p6kkt/image/upload/v1790778745/3_juczxa.png"
                   alt="@sandra_nzioki holding the Supreme Smash Burger packaging and Flamin Cajun Fries"
                   className="w-full h-full object-cover"
                 />

@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import brand from "../brand";
-import screenshot1 from "../imports/Screenshot_2026-09-30_152459.png";
+import screenshot1 from "../imports/1.png";
 
 export default function About() {
   return (
@@ -21,7 +21,7 @@ export default function About() {
         {/* Image side */}
         <div className="relative overflow-hidden bg-[#111]" style={{ minHeight: "400px" }}>
           <img
-            src={screenshot1}
+            src="https://res.cloudinary.com/dmd3p6kkt/image/upload/v1790778744/1_udjqco.png"
             alt="The Supreme Smash Burger — fashion campaign visual"
             className="w-full h-full object-cover object-top"
             style={{ minHeight: "400px" }}

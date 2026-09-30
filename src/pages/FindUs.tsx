@@ -1,6 +1,6 @@
 import brand from "../brand";
-import screenshot1 from "../imports/Screenshot_2026-09-30_152459.png";
-import screenshot2 from "../imports/Screenshot_2026-09-30_152721.png";
+import screenshot1 from "../imports/1.png";
+import screenshot2 from "../imports/2.png";
 
 const upcomingEvents = [
   {
@@ -117,7 +117,7 @@ export default function FindUs() {
             {/* Event poster 1 */}
             <div className="relative overflow-hidden bg-black/20">
               <img
-                src={screenshot1}
+                src="https://res.cloudinary.com/dmd3p6kkt/image/upload/v1790778744/1_udjqco.png"
                 alt="The Supreme Smash Burger at Bizarre Bazaar — Sat 26th and Sun 27th Sept"
                 className="w-full object-cover"
                 style={{ maxHeight: "600px" }}
@@ -125,7 +125,7 @@ export default function FindUs() {
             </div>
             <div className="relative overflow-hidden bg-black/20">
               <img
-                src={screenshot2}
+                src="https://res.cloudinary.com/dmd3p6kkt/image/upload/v1790779410/2_visfzx.png"
                 alt="The Supreme Smash Burger at Bizarre Bazaar Summer Festival — Sat 4th and Sun 5th July"
                 className="w-full object-cover"
                 style={{ maxHeight: "600px" }}
