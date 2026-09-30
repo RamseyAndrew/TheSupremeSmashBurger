@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@400;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-red: #D41717;
+  --color-brand-black: #0A0A0A;
+  --color-brand-white: #FFFFFF;
+  --color-brand-red-dark: #A91010;
+  --color-brand-red-light: #FF2626;
+  --color-brand-gray: #1A1A1A;
+
+  --font-display: 'Anton', sans-serif;
+  --font-condensed: 'Barlow Condensed', sans-serif;
+  --font-body: 'Barlow', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide scrollbar while still scrollable */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #D41717; border-radius: 2px; }
+
+/* Torn paper SVG clip paths */
+.torn-bottom {
+  position: relative;
+}
+.torn-bottom::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  background: #0A0A0A;
+  clip-path: polygon(
+    0% 100%, 2% 40%, 5% 80%, 8% 20%, 12% 60%, 15% 10%, 19% 50%, 23% 90%,
+    27% 30%, 31% 70%, 35% 15%, 39% 55%, 43% 85%, 47% 25%, 51% 65%, 55% 5%,
+    59% 45%, 63% 80%, 67% 20%, 71% 60%, 75% 10%, 79% 50%, 83% 90%, 87% 35%,
+    91% 75%, 95% 15%, 98% 55%, 100% 100%
+  );
+}
+
+.torn-top {
+  position: relative;
+}
+.torn-top::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  background: #0A0A0A;
+  clip-path: polygon(
+    0% 0%, 2% 60%, 5% 20%, 8% 80%, 12% 40%, 15% 90%, 19% 50%, 23% 10%,
+    27% 70%, 31% 30%, 35% 85%, 39% 45%, 43% 15%, 47% 75%, 51% 35%, 55% 95%,
+    59% 55%, 63% 20%, 67% 80%, 71% 40%, 75% 90%, 79% 50%, 83% 10%, 87% 65%,
+    91% 25%, 95% 85%, 98% 45%, 100% 0%
+  );
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+.font-condensed {
+  font-family: var(--font-condensed);
+}
